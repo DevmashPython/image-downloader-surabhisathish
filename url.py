@@ -1,6 +1,6 @@
 import urllib
 import re
-url=raw.input("enter url:")
+url=raw_input("enter url:")
 f=urllib.urlopen(url)
 d=f.read()
 a=re.compile('<img.*src="(.*\.jpg)"')
